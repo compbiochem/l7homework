@@ -1,0 +1,18 @@
+Widgets
+
+Install Postgres (https://www.postgresql.org/download/)
+
+Save widgets.tsv as widgets.csv through Excel (easier to import via PostgreSQL)
+
+Right click widgets.csv -> change permissions (Everyone - read/execute)
+
+Connect to SQL Shell (psql)
+
+CREATE DATABASE widgetshomework;
+\c widgetshomework;
+
+\i C:/Users/bwils/OneDrive/Desktop/l7homework/setupDbWidgets.sql
+
+Census/Benford
+
+Install Python (https://www.python.org/downloads/)
